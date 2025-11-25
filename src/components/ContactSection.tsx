@@ -21,21 +21,14 @@ const ContactSection: React.FC<ContactSectionProps> = ({}) => {
           </Link>
         </div>
         <div className="mt-6 flex items-center gap-4 text-white/80">
-            <SocialIcon
-                url="https://www.linkedin.com/in/franck-muzaba-550b84181/?skipRedirect=true"
-                style={{ height: 40, width: 40 }}
-            />
+          <SocialIcon
+            url="https://www.linkedin.com/in/franck-muzaba-550b84181/?skipRedirect=true"
+            style={{ height: 40, width: 40 }}
+          />
 
-            <SocialIcon
-                url="https://x.com/MuzabaF"
-                style={{ height: 40, width: 40 }}
-            />
+          <SocialIcon url="https://x.com/MuzabaF" style={{ height: 40, width: 40 }} />
 
-            <SocialIcon
-                url="mailto:ffranckmuzabaffr@gmail.com"
-                style={{ height: 40, width: 40 }}
-            />
-
+          <SocialIcon url="mailto:ffranckmuzabaffr@gmail.com" style={{ height: 40, width: 40 }} />
         </div>
       </div>
     </section>

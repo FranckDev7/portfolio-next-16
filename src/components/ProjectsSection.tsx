@@ -16,7 +16,11 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({}) => {
               'radial-gradient(60% 60% at 60% 40%, rgba(125, 58, 242, 0.65) 0%, rgba(18, 8, 36, 0) 70%)',
           }}
         />
-        <ScrollReveal stagger={0.12} delay={0.6} className="grid grid-cols-1 md:grid-cols-2 items-center">
+        <ScrollReveal
+          stagger={0.12}
+          delay={0.6}
+          className="grid grid-cols-1 md:grid-cols-2 items-center"
+        >
           {/* TEXT CONTENT */}
           <div className="relative z-10">
             {/* HEADING */}
@@ -76,7 +80,11 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({}) => {
               'radial-gradient(60% 60% at 60% 40%, rgba(125, 58, 242, 0.65) 0%, rgba(18, 8, 36, 0) 70%)',
           }}
         />
-        <ScrollReveal stagger={0.12} delay={0.6} className="grid grid-cols-1 md:grid-cols-2 items-center">
+        <ScrollReveal
+          stagger={0.12}
+          delay={0.6}
+          className="grid grid-cols-1 md:grid-cols-2 items-center"
+        >
           {/* TEXT CONTENT */}
           <div className="relative md:order-2 z-10">
             {/* HEADING */}

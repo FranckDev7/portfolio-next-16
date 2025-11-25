@@ -9,6 +9,7 @@ type experienceItemsProps = {
   title: string;
   description: string;
   image: string;
+  link?: string;
 };
 
 const experienceItems: experienceItemsProps[] = [
@@ -18,6 +19,7 @@ const experienceItems: experienceItemsProps[] = [
         Application web construite avec Next.js 15 permettant de rechercher des aliments
       `,
     image: '/images/work-experience-1.jpg',
+    link: 'https://nutri-spark.vercel.app/',
   },
   {
     title: 'CIB on the Mobile 2',
@@ -25,6 +27,7 @@ const experienceItems: experienceItemsProps[] = [
         A mobile banking application for CIB bank in Egypt
       `,
     image: '/images/work-experience-2.png',
+    link: '#',
   },
   {
     title: 'CIB on the Mobile 3',
@@ -32,6 +35,7 @@ const experienceItems: experienceItemsProps[] = [
         A mobile banking application for CIB bank in Egypt
       `,
     image: '/images/work-experience-3.png',
+    link: '#',
   },
   {
     title: 'CIB on the Mobile 4',
@@ -40,6 +44,7 @@ const experienceItems: experienceItemsProps[] = [
         
       `,
     image: '/images/work-experience-4.png',
+    link: '#',
   },
 ];
 
@@ -98,12 +103,14 @@ const WorkExperience: React.FC<WorkExperienceProps> = ({}) => {
                   <p className="mt-2 text-xs md:text-sm text-white/60 max-w-sm mx-auto sm:mx-0 mb-4">
                     {item.description}
                   </p>
-                  <Link
-                    href="#"
+                  <a
+                    href={item.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center text-[11px] md:text-xs px-8 py-4 rounded-[10px] bg-[#1a0c2e] border border-[#3e1d6d] text-white/80 hover:text-white hover:border-[#a855f7] hover:bg-[#220e3d] transition-colors"
                   >
                     Savoir plus
-                  </Link>
+                  </a>
                 </div>
               </div>
             </article>
