@@ -1,0 +1,31 @@
+# 📦 Node
+node_modules
+pnpm-lock.yaml
+
+# 🚀 Next.js build
+.next
+out
+build
+dist
+
+# 🖼️ Dossiers statiques
+public
+coverage
+
+# 🔧 Configs générées
+next-env.d.ts
+
+# 📚 Logs
+logs
+*.log
+
+# 🧹 Divers
+*.min.js
+*.min.css
+
+# ⚠️ Ignorer les fichiers déjà formatés par des outils externes
+package-lock.json
+yarn.lock
+
+# 📝 Documentation compilée
+*.mdx.tsx
