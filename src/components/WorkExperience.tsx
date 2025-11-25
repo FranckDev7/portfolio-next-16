@@ -27,7 +27,7 @@ const experienceItems: experienceItemsProps[] = [
         application web de gestion de tâches construite avec React et TypeScript.
       `,
     image: '/images/todo-list.svg',
-    link: 'todo-list-react-19.vercel.app',
+    link: 'https://todo-list-react-19.vercel.app/',
   },
   {
     title: 'CIB on the Mobile 3',
