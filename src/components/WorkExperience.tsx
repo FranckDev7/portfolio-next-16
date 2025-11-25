@@ -16,18 +16,18 @@ const experienceItems: experienceItemsProps[] = [
   {
     title: 'NutriSpark',
     description: `
-        Application web construite avec Next.js 15 permettant de rechercher des aliments
+        Application d’exploration des valeurs valeurs nutritionnelles des aliments
       `,
-    image: '/images/work-experience-1.jpg',
+    image: '/images/food.svg',
     link: 'https://nutri-spark.vercel.app/',
   },
   {
-    title: 'CIB on the Mobile 2',
+    title: 'Todo List App',
     description: `
-        A mobile banking application for CIB bank in Egypt
+        application web de gestion de tâches construite avec React et TypeScript.
       `,
-    image: '/images/work-experience-2.png',
-    link: '#',
+    image: '/images/todo-list.svg',
+    link: 'todo-list-react-19.vercel.app',
   },
   {
     title: 'CIB on the Mobile 3',
