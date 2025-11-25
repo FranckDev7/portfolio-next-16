@@ -16,7 +16,7 @@ const experienceItems: experienceItemsProps[] = [
   {
     title: 'NutriSpark',
     description: `
-        Application d’exploration des valeurs valeurs nutritionnelles des aliments
+        Application d’exploration des valeurs nutritionnelles des aliments
       `,
     image: '/images/food.svg',
     link: 'https://nutri-spark.vercel.app/',
