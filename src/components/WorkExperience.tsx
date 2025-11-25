@@ -82,9 +82,9 @@ const WorkExperience: React.FC<WorkExperienceProps> = ({}) => {
                 }}
               ></div>
 
-              <div className="relative flex flex-col lg:flex-row sm:items-start items:center gap-4 sm:gap-6 md:gap-8">
+              <div className="relative flex flex-col lg:flex-row sm:items-start items:center gap-2 sm:gap-6 md:gap-8">
                 {/* icon */}
-                <div className="relative shrink-0 w-10 h-10 sm:size-20 md:size-24 transition-transform duration-300 group-hover:-translate-y-1">
+                <div className="mx-auto sm:mx-0 relative shrink-0 w-10 h-10 sm:size-20 md:size-24 transition-transform duration-300 group-hover:-translate-y-1">
                   <Image
                     src={item.image}
                     alt={item.title}
@@ -97,20 +97,22 @@ const WorkExperience: React.FC<WorkExperienceProps> = ({}) => {
 
                 {/* text content */}
                 <div>
-                  <h4 className="text-base sm:text-lg md:text-xl font-semibold text-white mt-4 mb-2">
+                  <h4 className="text-center sm:text-start text-base sm:text-lg md:text-xl font-semibold text-white mt-4 mb-2">
                     {item.title}
                   </h4>
-                  <p className="mt-2 text-xs md:text-sm text-white/60 max-w-sm mx-auto sm:mx-0 mb-4">
+                  <p className="text-center sm:text-start mt-2 text-xs leading-5 md:text-sm text-white/60 mx-auto sm:mx-0 mb-4">
                     {item.description}
                   </p>
-                  <a
-                    href={item.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center text-[11px] md:text-xs px-8 py-4 rounded-[10px] bg-[#1a0c2e] border border-[#3e1d6d] text-white/80 hover:text-white hover:border-[#a855f7] hover:bg-[#220e3d] transition-colors"
-                  >
-                    Savoir plus
-                  </a>
+                  <div>
+                      <a
+                          href={item.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="max-[640px]:w-full max-[640px]:text-center inline-block items-center text-[11px] md:text-xs px-8 py-4 rounded-[10px] bg-[#1a0c2e] border border-[#3e1d6d] text-white/80 hover:text-white hover:border-[#a855f7] hover:bg-[#220e3d] transition-colors"
+                      >
+                          Savoir plus
+                      </a>
+                  </div>
                 </div>
               </div>
             </article>
