@@ -22,7 +22,7 @@ const experienceItems: experienceItemsProps[] = [
     link: 'https://nutri-spark.vercel.app/',
   },
   {
-    title: 'Todo List App',
+    title: 'Todo List App REACT',
     description: `
         application web de gestion de tâches construite avec React et TypeScript.
       `,
@@ -30,12 +30,12 @@ const experienceItems: experienceItemsProps[] = [
     link: 'https://todo-list-react-19.vercel.app/',
   },
   {
-    title: 'CIB on the Mobile 3',
+    title: 'TODO LIST APP VUE 3',
     description: `
-        A mobile banking application for CIB bank in Egypt
+        application web de gestion de tâches construite avec VUE 3 et TypeScript.
       `,
-    image: '/images/work-experience-3.png',
-    link: '#',
+    image: '/images/todo-list.svg',
+    link: 'https://todo-app-vue-kappa.vercel.app/',
   },
   {
     title: 'CIB on the Mobile 4',
