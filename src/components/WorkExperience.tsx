@@ -38,13 +38,13 @@ const experienceItems: experienceItemsProps[] = [
     link: 'https://todo-app-vue-kappa.vercel.app/',
   },
   {
-    title: 'CIB on the Mobile 4',
+    title: 'Pokemon',
     description: `
-        A mobile banking application for CIB bank in Egypt
+        application web permettant d’explorer l’univers des Pokémon
         
       `,
-    image: '/images/work-experience-4.png',
-    link: '#',
+    image: '/images/pokemon.svg',
+    link: 'https://pokemon-qblh.vercel.app/',
   },
 ];
 
